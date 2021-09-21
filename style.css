@@ -22,6 +22,7 @@ body {
     list-style: none;
     margin-left: auto;
     padding-right: 5vw;
+    font-family: Graphik, sans-serif;
 }
 
 .navigation nav ul li {
@@ -30,7 +31,7 @@ body {
 
 .navigation nav ul li a {
     text-decoration: none;
-    color:darkblue;
+    color: #1551B1;
 }
 
 .logo {
@@ -48,16 +49,55 @@ section {
     padding: 7vh;
 }
 
-footer {
+/* .heroImg {
+    border: solid red;
+    
+} */
+
+h1 {
+    color: #1551B1;
+    font-size: 48px;
+    font-family: Prata, serif;
+}
+
+.content p {
+    font-family: Graphik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+button {
+    font-family: Graphik;
+    color: #1551B1;
+    background-color: transparent;
+    border-color: #1551B1;
+
+}
+
+button:hover {
+    background-color: #1551B1;
+    color: white;
+}
+
+/* footer {
     display: flex;
     height: 75px;
-    /* margin-top: calc(100vh-75px); */
+    margin-top: calc(100vh-75px);
     width: 100vw;
     padding: 2vh 0;
-    /* border-top: 1px solid gray; */
     position: absolute;
     bottom: 0;
     
+} */
+
+footer {
+   display: flex;
+   width: 100vw;
+   padding: 1vh 0;
+   /* position: absolute;
+   bottom: 0; */
 }
 
 footer ul {
@@ -74,5 +114,6 @@ footer ul li {
 
 footer ul li a {
     text-decoration: none;
-    color:darkblue;
+    color: #1551B1;
+    font-family: Graphik, sans-serif;
 }
